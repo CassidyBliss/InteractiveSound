@@ -385,7 +385,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 4575.0, 522.0, 34.0 ],
+					"patching_rect" : [ 203.0, 4575.0, 525.0, 34.0 ],
 					"text" : "if you connect a MIDI device to the computer, you can create a simple MIDI note monitor to show the notes coming into Max:"
 				}
 
@@ -479,7 +479,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 4520.0, 618.0, 34.0 ],
+					"patching_rect" : [ 203.0, 4520.0, 620.0, 34.0 ],
 					"text" : "since we don't want to deal with raw binary data, we use the midiparse object to break things ip into messages that we can use"
 				}
 

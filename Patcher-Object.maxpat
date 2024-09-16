@@ -861,7 +861,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 800.0, 531.0, 62.0 ],
+					"patching_rect" : [ 42.0, 800.0, 535.0, 62.0 ],
 					"text" : "Start with 3 number boxes, two ints and one float. Make 1 subpatcher that inputs both integers and adds them, then divides the result by 2. Make a 2nd subpatcher that accepts the floating point number and outputs 3 floating point number: the original divided by 2.5, the original unchanges and the original multiplied by 500 & display all results on top-level patch"
 				}
 
@@ -1306,7 +1306,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 120.0, 346.0, 34.0 ],
+					"patching_rect" : [ 37.0, 120.0, 348.0, 34.0 ],
 					"text" : "Almost always, a patcher object is abreviated as \"p\" but doesn't have to have a name"
 				}
 
@@ -1318,7 +1318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 69.0, 290.0, 34.0 ],
+					"patching_rect" : [ 31.0, 69.0, 291.0, 34.0 ],
 					"text" : "The easiest way to hide patch complexity is to hide it in another patch"
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
+		"rect" : [ 134.0, 134.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -349,7 +349,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 26.0, 646.0, 409.0, 221.0 ],
+					"patching_rect" : [ 26.0, 646.0, 372.0, 214.0 ],
 					"varname" : "bp.Big Scope",
 					"viewvisibility" : 1
 				}
@@ -372,7 +372,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 463.0, 186.0, 332.0, 131.0 ],
+					"patching_rect" : [ 463.0, 186.0, 314.0, 116.0 ],
 					"varname" : "bp.Oscillator[1]",
 					"viewvisibility" : 1
 				}
@@ -479,7 +479,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -487,7 +487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -495,7 +495,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
