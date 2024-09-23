@@ -1,0 +1,87 @@
+{
+	"pattrstorage" : 	{
+		"name" : "MyFive",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slingblade" : [ 62 ],
+					"mypattr" : [ 62 ],
+					"slingblade[1]" : [ 97 ],
+					"first" : [  ],
+					"second" : [  ],
+					"third" : [  ],
+					"fourth" : [  ],
+					"fifth" : [  ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
+					"slider[10]" : [  ],
+					"slider[11]" : [  ],
+					"slider[12]" : [  ],
+					"slider[13]" : [  ],
+					"slider[7]" : [  ],
+					"slider[8]" : [  ],
+					"slider[9]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slingblade" : [ 62 ],
+					"mypattr" : [ 62 ],
+					"slingblade[1]" : [ 97 ],
+					"first" : [  ],
+					"second" : [  ],
+					"third" : [  ],
+					"fourth" : [  ],
+					"fifth" : [  ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
+					"slider[10]" : [  ],
+					"slider[11]" : [  ],
+					"slider[12]" : [  ],
+					"slider[13]" : [  ],
+					"slider[7]" : [  ],
+					"slider[8]" : [  ],
+					"slider[9]" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slingblade" : [ 62 ],
+					"mypattr" : [ 62 ],
+					"slingblade[1]" : [ 97 ],
+					"first" : [  ],
+					"second" : [  ],
+					"third" : [  ],
+					"fourth" : [  ],
+					"fifth" : [  ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"number[3]" : [  ],
+					"slider[10]" : [  ],
+					"slider[11]" : [  ],
+					"slider[12]" : [  ],
+					"slider[13]" : [  ],
+					"slider[7]" : [  ],
+					"slider[8]" : [  ],
+					"slider[9]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
