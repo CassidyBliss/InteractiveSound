@@ -1,0 +1,20 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mysongs",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"GATE1" : [ 1 ],
+					"note1" : [ 45 ],
+					"note1[1]" : [  ],
+					"GATE1[1]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
