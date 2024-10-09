@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
+		"rect" : [ 31.0, 139.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,11 +41,11 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 266.0, 83.0, 75.0 ],
+					"patching_rect" : [ 378.0, 266.0, 86.0, 62.0 ],
 					"text" : "paulstretch: changes speed without changing pitch"
 				}
 
@@ -208,7 +208,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 174.0, 455.0, 635.0, 127.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -7973 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
