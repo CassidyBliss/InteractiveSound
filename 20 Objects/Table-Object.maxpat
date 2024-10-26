@@ -287,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 3187.0, 153.0, 62.0 ],
+					"patching_rect" : [ 52.0, 3187.0, 150.0, 62.0 ],
 					"text" : "The loadbang object produces a bang message whenever the patch is loaded"
 				}
 
@@ -480,7 +480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 2203.0, 605.0, 34.0 ],
+					"patching_rect" : [ 40.0, 2203.0, 604.0, 34.0 ],
 					"text" : "If you want to save the data from a table into a file, or retrieve previously stored data from a file, you can use the read and write messages"
 				}
 
@@ -541,6 +541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 433.0, 1710.0, 150.0, 34.0 ],
+					"presentation_linecount" : 2,
 					"text" : "turn this on to play the table"
 				}
 
@@ -603,6 +604,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 410.0, 1866.0, 83.0, 22.0 ],
+					"presentation_linecount" : 3,
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"name" : "myTable",
@@ -1614,8 +1616,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "myTable",
-				"bootpath" : "C74:/help/max",
+				"name" : "mytablefile",
+				"bootpath" : "~/Desktop/Interactive Sound",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
