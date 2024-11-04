@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 76.0, 1069.0, 827.0 ],
+		"rect" : [ 34.0, 76.0, 1469.0, 827.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,102 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "newobj",
+					"numinlets" : 4,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 798.0, 2006.0, 50.5, 22.0 ],
+					"text" : "projectr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 838.0, 2233.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "678892__stephiequeen__youll-never-exist-song-loop.ogg",
+								"filename" : "678892__stephiequeen__youll-never-exist-song-loop.ogg",
+								"filekind" : "audiofile",
+								"id" : "u428003140",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-126",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 929.0, 1885.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "653120__stephiequeen__eventide-song-loop.ogg",
+								"filename" : "653120__stephiequeen__eventide-song-loop.ogg",
+								"filekind" : "audiofile",
+								"id" : "u213003133",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-121",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1121.0, 1827.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.23921568627451, 0.227450980392157, 0.227450980392157, 0.0 ],
 					"bubble" : 1,
@@ -105,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 675.0, 680.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1302.0, 886.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 862.0, 665.0, 60.0, 20.0 ],
 					"text" : "Zoom "
@@ -118,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 665.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1302.0, 887.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 670.0, 665.0, 60.0, 20.0 ],
 					"text" : "Rotation"
@@ -1589,7 +1685,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-132", 0 ],
+					"order" : 0,
+					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
+					"order" : 1,
 					"source" : [ "obj-109", 0 ]
 				}
 
@@ -1610,8 +1715,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-121", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -2267,6 +2386,14 @@
 			"obj-109::obj-151" : [ "pictctrl[27]", "pictctrl[1]", 0 ],
 			"obj-109::obj-56::obj-23" : [ "gswitch2[3]", "gswitch2", 0 ],
 			"obj-109::obj-6" : [ "range[5]", "range", 0 ],
+			"obj-132::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
+			"obj-132::obj-16" : [ "Toggle display", "Toggle display", 0 ],
+			"obj-132::obj-1::obj-23" : [ "gswitch2[4]", "gswitch2", 0 ],
+			"obj-132::obj-2" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
+			"obj-132::obj-3" : [ "toggle", "toggle", 0 ],
+			"obj-132::obj-41" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
+			"obj-132::obj-50" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
+			"obj-132::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-33::obj-12" : [ "pictctrl[5]", "pictctrl[1]", 0 ],
 			"obj-33::obj-27" : [ "Color 2", "Color 2", 0 ],
 			"obj-33::obj-28" : [ "Color 1", "Color 1", 0 ],
@@ -2288,6 +2415,14 @@
 			"parameter_overrides" : 			{
 				"obj-109::obj-104" : 				{
 					"parameter_longname" : "pictctrl[10]"
+				}
+,
+				"obj-132::obj-2" : 				{
+					"parameter_longname" : "pictctrl[12]"
+				}
+,
+				"obj-132::obj-41" : 				{
+					"parameter_longname" : "pictctrl[11]"
 				}
 
 			}
@@ -2347,6 +2482,24 @@
 , 			{
 				"name" : "vz.brcosr.maxpat",
 				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vz.projectr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-context.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vzgl-disable.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers/utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
