@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 748.0, 82.0, 752.0, 819.0 ],
+		"rect" : [ 803.0, 82.0, 698.0, 819.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1787.0, 1993.0, 150.0, 62.0 ],
+					"patching_rect" : [ 1787.0, 1993.0, 151.0, 62.0 ],
 					"text" : "stores 10 consecutive matricies, each with p planes of 8bit type, of size 1280x720"
 				}
 
@@ -494,7 +494,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.0, 1892.0, 150.0, 48.0 ],
+					"patching_rect" : [ 412.0, 1892.0, 153.0, 48.0 ],
 					"text" : "limits the speed at which a message can pass through it"
 				}
 
@@ -1124,7 +1124,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 1204.0, 60.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bscale $1"
 				}
 
@@ -1137,7 +1136,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 323.0, 1204.0, 60.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "gscale $1"
 				}
 
@@ -1267,7 +1265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 35.0, 150.0, 20.0 ]
+					"patching_rect" : [ 245.0, 19.0, 150.0, 20.0 ]
 				}
 
 			}
