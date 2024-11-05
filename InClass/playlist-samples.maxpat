@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 31.0, 139.0, 1468.0, 705.0 ],
+		"rect" : [ 35.0, 196.0, 1466.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "cherokee.aif",
+								"filename" : "cherokee.aif",
+								"filekind" : "audiofile",
+								"id" : "u671006554",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-2",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 204.0, 497.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"linecount" : 4,
@@ -172,47 +209,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"clipheight" : 126.0,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "eroica.aiff",
-								"filename" : "eroica.aiff",
-								"filekind" : "audiofile",
-								"id" : "u198001708",
-								"selection" : [ 0.110344827586207, 0.229310344827586 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"timestretch" : 1,
-									"loop" : 1,
-									"speed" : 0.5,
-									"pitchshift" : 0.0
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-2",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 174.0, 455.0, 635.0, 127.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -286,8 +282,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "eroica.aiff",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"name" : "cherokee.aif",
+				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
