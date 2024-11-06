@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "01 - Sprinter [Explicit].mp3",
+								"filename" : "01 - Sprinter [Explicit].mp3",
+								"filekind" : "audiofile",
+								"id" : "u151006916",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"speed" : 0.1,
+									"pitchshift" : 0.2,
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-130",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1036.25, 2040.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"pitchshiftcent" : [ -2786 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 614.0, -9.75, 555.5, 28.5 ],
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 35.0,
 					"id" : "obj-126",
 					"linecount" : 3,
@@ -109,7 +151,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1098.0, 741.0, 128.0, 128.0 ],
+					"patching_rect" : [ 1303.5, 209.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1035.5, 589.0, 138.0, 99.0 ],
 					"proportion" : 0.5,
@@ -159,7 +201,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1083.0, 726.0, 128.0, 128.0 ],
+					"patching_rect" : [ 1309.0, 214.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1035.5, 690.0, 138.0, 99.0 ],
 					"proportion" : 0.5,
@@ -273,9 +315,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1225.0, 2058.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ 690 ],
+					"pitchshiftcent" : [ -2786 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.5, -12.0, 970.0, 30.0 ],
+					"presentation_rect" : [ 199.5, -10.5, 412.5, 28.5 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -477,7 +519,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.5, 282.0, 327.0, 245.0 ],
+					"patching_rect" : [ 106.5, 282.0, 327.0, 245.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1181.5, 187.0, 255.0, 175.0 ]
 				}
@@ -646,7 +688,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 761.0, 1611.0, 117.0, 22.0 ],
+					"patching_rect" : [ 759.0, 1622.0, 117.0, 22.0 ],
 					"text" : "scale 0. 127. 0. 255."
 				}
 
@@ -1772,7 +1814,7 @@
 					"patching_rect" : [ 263.0, 583.0, 128.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1179.5, 364.0, 259.0, 32.0 ],
-					"saturation" : 0.972549019607843
+					"saturation" : 1.0
 				}
 
 			}
@@ -1861,9 +1903,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1303.5, 885.0, 128.0, 128.0 ],
+					"patching_rect" : [ 1313.0, 268.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 949.0, 487.0, 1463.0, 862.0 ],
+					"presentation_rect" : [ 2.0, -56.0, 1463.0, 862.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1984,7 +2026,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-142", 0 ],
+					"destination" : [ "obj-130", 0 ],
+					"order" : 1,
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -1992,6 +2035,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-142", 0 ],
+					"order" : 0,
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"order" : 1,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-142", 0 ],
+					"order" : 0,
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -2019,7 +2079,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"order" : 1,
+					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-142", 0 ],
+					"order" : 0,
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -2035,6 +2104,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
 					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-143", 0 ],
+					"source" : [ "obj-130", 0 ]
 				}
 
 			}
@@ -2874,6 +2950,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "01 - Sprinter [Explicit].mp3",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../Downloads",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "90-s-old-school-type-beat-rap-instrumental-sample-me-2024-195157.mp3",
 				"bootpath" : "~/Downloads",
 				"patcherrelativepath" : "../../../../Downloads",
