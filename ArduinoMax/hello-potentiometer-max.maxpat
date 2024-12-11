@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.0, 439.0, 150.0, 60.0 ],
+					"patching_rect" : [ 379.0, 439.0, 150.0, 62.0 ],
 					"text" : "also pot 1 but multiplied by 2 in arduino code 0 510\nyou can also do this w/ max"
 				}
 
@@ -57,8 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 450.0, 139.0, 33.0 ],
-					"presentation_linecount" : 7,
+					"patching_rect" : [ 209.0, 450.0, 141.0, 34.0 ],
 					"text" : "pot 1 mapped in arduino sketch to 0 to 255"
 				}
 
@@ -365,7 +364,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 101.0, 92.0, 39.0, 22.0 ],
-					"text" : "port z"
+					"text" : "port h"
 				}
 
 			}
