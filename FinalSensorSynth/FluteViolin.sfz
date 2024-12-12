@@ -1,0 +1,670 @@
+/*
+Title: Flute+Violin
+Instrument: A student violin and a handmade Native American flute
+
+I made the mistake of using the Olafur Arnalds Chamber Waves in a project where
+my intentions were to stay out of the box as much as possible. We all know how
+beautiful those samples are, so replacing the samples was a difficult task. I
+grabbed a student violin and a handmade Native American flute and did my best
+to match the rise and fall of the Chamber Wave Samples as best I could. My
+samples have a similar behavior but the tight sound and texture of the
+instrument is quite different from the Chamber Waves. The magic is in the
+pitched down Samples in the lower registers. I also sampled a long sustain,
+drone performance. Both dry and echo/reverb versions are included. The Samples
+were recorded with a Neumann KM84 and a pair of Coles 4038’s.
+
+ 
+https://www.pianobook.co.uk/
+http://www.sfzformat.com/
+https://plogue.com/products/sforzando.html
+
+Created by: Jon Meyer
+Terms of Use: https://www.pianobook.co.uk/terms
+Published on: Oct. 29, 2019
+===========================================
+SFZ by Sid
+Has separate volume for each sample set (click the number to drag up or down).
+Has a low pass filter for brightness control.
+Place this SFZ file in the folder outside of the instrument folders.
+*/
+// Pianobook MVP SFZ Template V 1.0
+
+<control>
+label_cc007=Master Volume
+label_cc010=Master Pan
+label_cc074=Brightness
+label_cc064=Sustain
+label_cc020=Sus Volume
+label_cc021=Sus FX Volume
+label_cc022=Waves Volume
+label_cc023=Waves FX Volume
+
+
+<global>
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+ampeg_attack=0.005
+ampeg_decay=0
+ampeg_sustain=100
+ampeg_release=0.6
+ampeg_hold=0
+ampeg_delay=0
+off_shape=0
+note_polyphony=2
+note_selfmask=off
+loop_mode=loop_continuous
+
+// soft piano style
+fil_type=lpf_2p
+cutoff=200
+cutoff_cc074=9600
+
+//========== Sus Group ========================
+<group>
+group=1
+group_label=Sus
+lovel=0
+hivel=127
+xfin_locc20=0
+xfin_hicc20=127
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/D.wav
+hikey=D#3
+lokey=C0
+pitch_keycenter=D3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/E.wav
+hikey=E3
+lokey=E3
+pitch_keycenter=E3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/F#.wav
+hikey=F#3
+lokey=F3
+pitch_keycenter=F#3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/G.wav
+hikey=G#3
+lokey=G3
+pitch_keycenter=G3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/A.wav
+hikey=A#3
+lokey=A3
+pitch_keycenter=A3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/B.wav
+hikey=C4
+lokey=B3
+pitch_keycenter=B3
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/C#.wav
+hikey=C#4
+lokey=C#4
+pitch_keycenter=C#4
+
+<region>
+sample=FluteViolin Sustain/FluteViolin Sustain Samples/D2.wav
+hikey=G8
+lokey=D4
+pitch_keycenter=D4
+
+//========== Sus FX Group ========================
+<group>
+group=2
+group_label=Sus FX
+lovel=0
+hivel=127
+xfin_locc21=0
+xfin_hicc21=127
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_D1.wav
+hikey=D1
+lokey=C-2
+pitch_keycenter=D1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_E1.wav
+hikey=E1
+lokey=D#1
+pitch_keycenter=E1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_F#1.wav
+hikey=F#1
+lokey=F1
+pitch_keycenter=F#1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_G1.wav
+hikey=G1
+lokey=G1
+pitch_keycenter=G1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_A1.wav
+hikey=A1
+lokey=G#1
+pitch_keycenter=A1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_B1.wav
+hikey=B1
+lokey=A#1
+pitch_keycenter=B1
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_C#2.wav
+hikey=C#2
+lokey=C2
+pitch_keycenter=C#2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_D2.wav
+hikey=D2
+lokey=D2
+pitch_keycenter=D2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_E2.wav
+hikey=E2
+lokey=D#2
+pitch_keycenter=E2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_F#2.wav
+hikey=F#2
+lokey=F2
+pitch_keycenter=F#2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_G2.wav
+hikey=G2
+lokey=G2
+pitch_keycenter=G2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_A2.wav
+hikey=A2
+lokey=G#2
+pitch_keycenter=A2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_B2.wav
+hikey=B2
+lokey=A#2
+pitch_keycenter=B2
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_C#3.wav
+hikey=C#3
+lokey=C3
+pitch_keycenter=C#3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_D3.wav
+hikey=D3
+lokey=D3
+pitch_keycenter=D3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_E3.wav
+hikey=E3
+lokey=D#3
+pitch_keycenter=E3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_F#3.wav
+hikey=F#3
+lokey=F3
+pitch_keycenter=F#3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_G3.wav
+hikey=G3
+lokey=G3
+pitch_keycenter=G3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_A3.wav
+hikey=A3
+lokey=G#3
+pitch_keycenter=A3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_B3.wav
+hikey=B3
+lokey=A#3
+pitch_keycenter=B3
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_C#4.wav
+hikey=C#4
+lokey=C4
+pitch_keycenter=C#4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_D4.wav
+hikey=D4
+lokey=D4
+pitch_keycenter=D4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_E4.wav
+hikey=E4
+lokey=D#4
+pitch_keycenter=E4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_F#4.wav
+hikey=F#4
+lokey=F4
+pitch_keycenter=F#4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_G4.wav
+hikey=G4
+lokey=G4
+pitch_keycenter=G4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_A4.wav
+hikey=A4
+lokey=G#4
+pitch_keycenter=A4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_B4.wav
+hikey=B4
+lokey=A#4
+pitch_keycenter=B4
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_C#5.wav
+hikey=C#5
+lokey=C5
+pitch_keycenter=C#5
+
+<region>
+sample=FluteViolin Sustain FX/FluteViolin Sustain FX Samples/Sustain_FX_D5.wav
+hikey=G8
+lokey=D5
+pitch_keycenter=D5
+
+//========== Waves Group ========================
+<group>
+group=3
+group_label=Waves
+lovel=0
+hivel=127
+xfin_locc22=0
+xfin_hicc22=127
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/D1.wav
+hikey=D#3
+lokey=C0
+pitch_keycenter=D3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/E1.wav
+hikey=E1
+lokey=D#1
+pitch_keycenter=E1
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/F#1.wav
+hikey=F#1
+lokey=F1
+pitch_keycenter=F#1
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/G1.wav
+hikey=G1
+lokey=G1
+pitch_keycenter=G1
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/A1.wav
+hikey=A1
+lokey=G#1
+pitch_keycenter=A1
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/B1.wav
+hikey=B1
+lokey=A#1
+pitch_keycenter=B1
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/C#2.wav
+hikey=C#2
+lokey=C2
+pitch_keycenter=C#2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/D2.wav
+hikey=D2
+lokey=D2
+pitch_keycenter=D2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/E2.wav
+hikey=E2
+lokey=D#2
+pitch_keycenter=E2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/F#2.wav
+hikey=F#2
+lokey=F2
+pitch_keycenter=F#2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/G2.wav
+hikey=G2
+lokey=G2
+pitch_keycenter=G2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/A2.wav
+hikey=A2
+lokey=G#2
+pitch_keycenter=A2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/B2.wav
+hikey=B2
+lokey=A#2
+pitch_keycenter=B2
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/C#3.wav
+hikey=C#3
+lokey=C3
+pitch_keycenter=C#3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/D3.wav
+hikey=D3
+lokey=D3
+pitch_keycenter=D3
+
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/E3.wav
+hikey=E3
+lokey=D#3
+pitch_keycenter=E3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/F#3.wav
+hikey=F#3
+lokey=F3
+pitch_keycenter=F#3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/G3.wav
+hikey=G3
+lokey=G3
+pitch_keycenter=G3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/A3.wav
+hikey=A3
+lokey=G#3
+pitch_keycenter=A3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/B3.wav
+hikey=B3
+lokey=A#3
+pitch_keycenter=B3
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/C#4.wav
+hikey=C#4
+lokey=C4
+pitch_keycenter=C#4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/D4.wav
+hikey=D4
+lokey=D4
+pitch_keycenter=D4
+
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/E4.wav
+hikey=E4
+lokey=D#4
+pitch_keycenter=E4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/F#4.wav
+hikey=F#4
+lokey=F4
+pitch_keycenter=F#4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/G4.wav
+hikey=G4
+lokey=G4
+pitch_keycenter=G4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/A4.wav
+hikey=A4
+lokey=G#4
+pitch_keycenter=A4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/B4.wav
+hikey=B4
+lokey=A#4
+pitch_keycenter=B4
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/C#5.wav
+hikey=C#5
+lokey=C5
+pitch_keycenter=C#5
+
+<region>
+sample=FluteViolin Waves/Flute Violin Waves Samples/D5.wav
+hikey=D5
+lokey=D5
+pitch_keycenter=D5
+
+//========== Waves FX Group ========================
+<group>
+group=4
+group_label=Waves FX
+lovel=0
+hivel=127
+xfin_locc23=0
+xfin_hicc23=127
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_D1.wav
+hikey=D1
+lokey=C-2
+pitch_keycenter=D1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_E1.wav
+hikey=E1
+lokey=D#1
+pitch_keycenter=E1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_F#1.wav
+hikey=F#1
+lokey=F1
+pitch_keycenter=F#1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_G1.wav
+hikey=G1
+lokey=G1
+pitch_keycenter=G1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_A1.wav
+hikey=A1
+lokey=G#1
+pitch_keycenter=A1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_B1.wav
+hikey=B1
+lokey=A#1
+pitch_keycenter=B1
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_C#2.wav
+hikey=C#2
+lokey=C2
+pitch_keycenter=C#2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_D2.wav
+hikey=D2
+lokey=D2
+pitch_keycenter=D2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_E2.wav
+hikey=E2
+lokey=D#2
+pitch_keycenter=E2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_F#2.wav
+hikey=F#2
+lokey=F2
+pitch_keycenter=F#2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_G2.wav
+hikey=G2
+lokey=G2
+pitch_keycenter=G2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_A2.wav
+hikey=A2
+lokey=G#2
+pitch_keycenter=A2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_B2.wav
+hikey=B2
+lokey=A#2
+pitch_keycenter=B2
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_C#3.wav
+hikey=C#3
+lokey=C3
+pitch_keycenter=C#3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_D3.wav
+hikey=D3
+lokey=D3
+pitch_keycenter=D3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_E3.wav
+hikey=E3
+lokey=D#3
+pitch_keycenter=E3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_F#3.wav
+hikey=F#3
+lokey=F3
+pitch_keycenter=F#3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_G3.wav
+hikey=G3
+lokey=G3
+pitch_keycenter=G3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_A3.wav
+hikey=A3
+lokey=G#3
+pitch_keycenter=A3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_B3.wav
+hikey=B3
+lokey=A#3
+pitch_keycenter=B3
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_C#4.wav
+hikey=C#4
+lokey=C4
+pitch_keycenter=C#4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_D4.wav
+hikey=D4
+lokey=D4
+pitch_keycenter=D4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_E4.wav
+hikey=E4
+lokey=D#4
+pitch_keycenter=E4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_F#4.wav
+hikey=F#4
+lokey=F4
+pitch_keycenter=F#4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_G4.wav
+hikey=G4
+lokey=G4
+pitch_keycenter=G4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_A4.wav
+hikey=A4
+lokey=G#4
+pitch_keycenter=A4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_B4.wav
+hikey=B4
+lokey=A#4
+pitch_keycenter=B4
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_C#5.wav
+hikey=C#5
+lokey=C5
+pitch_keycenter=C#5
+
+<region>
+sample=FluteViolin Waves FX/FluteViolin Waves FX Samples/Waves_FX_D5.wav
+hikey=G8
+lokey=D5
+pitch_keycenter=D5
